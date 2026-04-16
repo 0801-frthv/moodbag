@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mood Bag</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#e8d8b5;
+}
+
+.header{
+    background:black;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.hero{
+    background:url('https://i.pinimg.com/originals/bb/f7/ef/bbf7efd48e6c7bb9432400b723612864.jpg') center/cover no-repeat;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#e6c7a1;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.frase{
+    background:#1f3a4d;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.boton, .btn{
+    display:block;
+    margin:20px auto;
+    padding:12px;
+    width:80%;
+    text-align:center;
+    border-radius:10px;
+    background:#2f6f7e;
+    color:white;
+    text-decoration:none;
+}
+
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.titulo{
+    font-size:28px;
+    font-weight:bold;
+    color:#8b5a2b;
+    margin-bottom:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.inicio-imgs{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin:20px;
+}
+
+.inicio-imgs .card{
+    width:250px;
+}
+
+.img{
+    width:90%;
+    max-width:300px;
+    margin:15px auto;
+    display:block;
+}
+
+iframe{
+    width:100%;
+    border:none;
+    border-radius:10px;
+}
+
+.reseñas{
+    background:#ddd;
+    padding:20px;
+}
+
+.review{
+    margin-bottom:20px;
+}
+
+.footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<div>☰</div>
+<div>🔍</div>
+</div>
+
+<div class="hero">Mood Bag</div>
+
+<div class="frase">Tus bolsas de confianza</div>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScD4Ynm68Bm9u16G8VcsbGx3sbvNlVWwtnuArTG2DVM6J0xJw/viewform" class="boton" target="_blank">
+¡Compra ya!
+</a>
+
+<div class="section">
+<div class="titulo">CARGA LIGERO<br>IMPACTA FUERTE</div>
+</div>
+
+<div class="inicio-imgs">
+<div class="card">
+<img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQ_5GAbvC5YCzxsFU88vDDWhqiIHYR1EG8sZ5BXMrVSYMQo93cfKQpa4KoFCwEjt8LHebRmT1UPihPMqNPFAEwLaPoZGbXgdwgBI6qWOcnMweclphaxuUn20q71RASgJfEGeq4jMeeYXcUF6qoFRjKJ7c-PO080dcwh_syjXjL06DseRSJDgWIIMutcNWgNRCbQNqUGLkRr2fkmr8vlLJQ5OnLlqoYH32DlwC8=w1280">
+</div>
+<div class="card">
+<img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQIOlA7XC3JUIrBffzyuEhFDQV2c2udmaWPEplNCI1_R8jfiAa_nXuwV9ggjGoBTnLrS8BmiNciY4hg2FzTK2RR6ydi7ZiorlDbvc6bvVcvur6tBrNflU9DEn96ZEqCbLDVKLND6tsw8qbpz80zZLtOKmyk3_OL4OVoTWDrEcj2gJ_oi0k2YvAFgFD99LdDpPe0FTv3X6ddgOTPunS5Aavi0ij2xNjKbA6iCY4=w1280">
+</div>
+</div>
+
+<div class="section">
+<i>La opinión de nuestros clientes</i>
+</div>
+
+<div class="reseñas">
+<div class="review"><b>Carla Díaz ⭐⭐⭐⭐⭐</b>
+<p>Mi bolsa es súper resistente, me gusta demasiado esta nueva marca!!</p></div>
+
+<div class="review"><b>Alisia Hernandez ⭐⭐⭐⭐</b>
+<p>4 estrellas porque no pude comprar todas las bolsas 😔.</p></div>
+
+<div class="review"><b>Oscar Temiz ⭐⭐⭐⭐⭐</b>
+<p>Son muy amables y atentos con el trato a sus clientes.</p></div>
+</div>
+
+<div class="section"><b>¡Déjanos tus comentarios!</b></div>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfetLD0PIWpGD5W2-4A3SYyGc2CB1IW7-hruZmH79W4B0J3Cw/viewform" class="boton" target="_blank">
+Reseñas
+</a>
+
+<div class="section">
+<div class="titulo">¿Quiénes somos?</div>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vSZPcAPVOTfjiXOPMBBhavmfwAEKZksu7xRLeTs7rUPdxL6qZfXyMAp35ERbUgRGtY7pRihD-hCAzmr/pub" frameborder="0" width="960" height="569" allowfullscreen="true"></iframe>
+</div>
+
+<div class="section">
+<div class="titulo">Escoge tu bolsa</div>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://i.pinimg.com/236x/5b/14/98/5b14989f93439beb19a21a61f4ea51c5.jpg">
+<h3>Bolso Mezclilla Hello Kitty</h3>
+<p>Bolso de mezclilla azul claro elaborado a partir de jeans reciclados con detalles adorables: un parche en forma de lazo y detalles de encaje en el borde, asas hechas de tela estampada con motivos de flores y hello kitty y cuenta con un lazo central que le da un toque dulce, perfecta para llevar pequeños objetos basicos a cualquier lugar de forma dulce y kawai</p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScD4Ynm68Bm9u16G8VcsbGx3sbvNlVWwtnuArTG2DVM6J0xJw/viewform" class="btn">Agregar al carrito</a>
+</div>
+
+<div class="card">
+<img src="https://i.pinimg.com/736x/19/6b/1c/196b1c9c9aa90a84f95f481ecd231d4c.jpg">
+<h3>Bolso estilo rústico</h3>
+<p>Bolso de mano único, elaborado con materiales reciclados: mezclilla de jeans viejos y tela estampada con motivos florales en tonos rojizos. Cuenta con asas gruesas de pana para mayor comodidad y un diseño espacioso con cierre seguro. Su estilo rústico y sostenible lo convierte en un accesorio ideal para quienes valoran la moda ética y los diseños originales. Perfecto para paseos, compras o salidas casuales.</p>
+<a href="#" class="btn">Agregar al carrito</a>
+</div>
+
+<div class="card">
+<img src="https://i.pinimg.com/236x/ea/df/84/eadf84ac507f66d6cd04939850e6249c.jpg">
+<h3>Bolso mantarraya</h3>
+<p>Bandolera divertida y original en forma de mantarraya, elaborada con mezclilla de tonos azules y estampada con estrellas y constelaciones. Cuenta con un cordón largo para llevar al hombro o cruzada, y detalles como un remolino en la cola que le dan un toque mágico. Su diseño compacto es ideal para llevar pequeños objetos como llaves, monedero o teléfono. Perfecta para niños, niñas y adultos que aman los diseños creativos y marinos.</p>
+<a href="#" class="btn">Agregar al carrito</a>
+</div>
+
+<div class="card">
+<img src="https://i.pinimg.com/236x/6f/26/2b/6f262bd3468eaff38f690826624ef554.jpg">
+<h3>Bolsa tote azul marino</h3>
+<p>Bolsa tote azul marino de tela de mezclilla resistente, con un estampado artístico en tonos claros que combina flores, mariposas y líneas fluidas, creando un diseño elegante y sofisticado. Cuenta con asas largas para llevar al hombro y un amplio espacio interior para llevar libros, cuadernos, compras o tus cosas esenciales. Ideal para quienes buscan un accesorio versátil y con estilo, perfecto para el trabajo, la escuela o paseos.</p>
+<a href="#" class="btn">Agregar al carrito</a>
+</div>
+
+<div class="card">
+<img src="https://i.pinimg.com/236x/dc/ef/d6/dcefd6c171e2c9d7a304662713cec97e.jpg">
+<h3>Bandoleras dúo</h3>
+<p>Par de bolsos bandolera de tela, disponibles en dos colores: verde oliva y azul marino. Ambos cuentan con un diseño fruncido en la parte superior y un detalle de tela clara con bordados exclusivos: uno con motivos geométricos y el otro con peces estilizados. Tienen asas ajustables para llevar cómodamente y un espacio interior suficiente para tus cosas esenciales. Ideales para complementar tu look casual o regalar a alguien especial.</p>
+<a href="#" class="btn">Agregar al carrito</a>
+</div>
+
+<div class="card">
+<img src="https://i.pinimg.com/originals/d0/da/b5/d0dab5fdd2d4f1e489e5a4ce9020d128.jpg">
+<h3>Neceser floral</h3>
+<p>Neceser de tela de mezclilla de textura suave y resistente, adornado con un hermoso bordado de margaritas blancas con centros amarillos y tallos verdes, que le dan un toque fresco y natural. Tiene un cierre de cremallera para asegurar tus objetos y un tamaño ideal para guardar cosméticos, accesorios, lápices o pequeños artículos esenciales. Perfecto para usar en casa, en viajes o como un regalo encantador para quienes aman los diseños florales y hechos a mano.</p>
+<a href="#" class="btn">Agregar al carrito</a>
+</div>
+
+<div class="card">
+<img src="https://i.pinimg.com/236x/17/05/ac/1705ac4fdd5ee3be0f308062f0131070.jpg">
+<h3>Bolsa BTS</h3>
+<p>Bolsa tote de manta cruda, ligera y resistente, perfecta para el día a día. Destaca por su bordado artístico único: un diseño abstracto con líneas fluidas y detalles de texto inspirado en BTS que le dan un toque creativo y personal. Cuenta con asas largas para llevar al hombro y un amplio espacio interior para llevar tus cosas esenciales. Ideal para quienes buscan un accesorio con personalidad, estilo y para fans del K-pop.</p>
+<a href="#" class="btn">Agregar al carrito</a>
+</div>
+
+<div class="card">
+<img src="https://i.pinimg.com/236x/71/e0/cf/71e0cf925dcc054da4fc6ab06f8738d0.jpg">
+<h3>Bolso bordado único</h3>
+<p>Bolso de mezclilla azul, amplio y resistente, decorado con bordado de estrellas y espirales. Cuenta con asas largas para llevar al hombro, bolsillos internos y externos para mayor organización, y detalles como bordados de estrellas y espirales que le dan un toque único. Perfecto para quienes buscan un accesorio con personalidad, ideal para el día a día o salidas con amigos.</p>
+<a href="#" class="btn">Agregar al carrito</a>
+</div>
+
+</div>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoYr7ASnja6G7gQYps7gEmMV8uPb2yEEp0tjSm3y73mKLOrwFpep0OmCn0hZqu6g/pubhtml" frameborder="0" width="960" height="569" allowfullscreen="true"></iframe>
+</div>
+
+<div class="section">
+<div class="titulo">Nuestra marca</div>
+<p>MoodBag representa creatividad, estilo y conciencia ambiental.</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ4A9wtRK5xh7ncoaLSQSzUTSMSoXQq-iRtyDXQ16bVcDQA3Nyw-xXmjLKk6hv70wDy4JCTKDuZDb4C/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true"></iframe>
+</div>
+
+<div class="section">
+<div class="titulo">Contactanos</div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScD4Ynm68Bm9u16G8VcsbGx3sbvNlVWwtnuArTG2DVM6J0xJw/viewform" height="600"></iframe>
+</div>
+
+<div class="section">
+<div class="titulo">Programa tu pedido</div>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScD4Ynm68Bm9u16G8VcsbGx3sbvNlVWwtnuArTG2DVM6J0xJw/viewform" class="btn">Agenda aqui</a>
+<table border="1" style="border-collapse: collapse; width: 100%; font-family: Arial;">
+<thead style="background-color: #f2f2f2;">
+<tr>
+<th style="padding: 10px;">Fecha</th>
+<th style="padding: 10px;">Actividad</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>30 Marzo</td><td>Primera ronda de promociones en terceros</td></tr>
+<tr><td>1 Abril</td><td>Primeras publicaciones en redes sociales</td></tr>
+<tr><td>2 Abril</td><td>Cortar bolsas</td></tr>
+<tr><td>7 Abril</td><td>Segunda ronda de promoción</td></tr>
+<tr><td>10 Abril</td><td>Primer apertura de encargos personalizados</td></tr>
+<tr><td>13 Abril</td><td>Checar pedidos</td></tr>
+<tr><td>15 Abril</td><td>Responder preguntas de clientes</td></tr>
+<tr><td>20 Abril</td><td>Responder preguntas de clientes</td></tr>
+<tr><td>22 Abril</td><td>Hacer publicaciones en redes sociales</td></tr>
+<tr><td>24 Abril</td><td>Checar pedidos</td></tr>
+<tr><td>27 Abril</td><td>Consultar empaquetados para entregas</td></tr>
+<tr><td>29 Abril</td><td>Hacer publicidad en redes sociales</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="section">
+<div class="titulo">Centro de documentos</div>
+<div class="inicio-imgs">
+<div class="card">
+<img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQ_5GAbvC5YCzxsFU88vDDWhqiIHYR1EG8sZ5BXMrVSYMQo93cfKQpa4KoFCwEjt8LHebRmT1UPihPMqNPFAEwLaPoZGbXgdwgBI6qWOcnMweclphaxuUn20q71RASgJfEGeq4jMeeYXcUF6qoFRjKJ7c-PO080dcwh_syjXjL06DseRSJDgWIIMutcNWgNRCbQNqUGLkRr2fkmr8vlLJQ5OnLlqoYH32DlwC8=w1280">
+</div>
+<div class="card">
+<img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQIOlA7XC3JUIrBffzyuEhFDQV2c2udmaWPEplNCI1_R8jfiAa_nXuwV9ggjGoBTnLrS8BmiNciY4hg2FzTK2RR6ydi7ZiorlDbvc6bvVcvur6tBrNflU9DEn96ZEqCbLDVKLND6tsw8qbpz80zZLtOKmyk3_OL4OVoTWDrEcj2gJ_oi0k2YvAFgFD99LdDpPe0FTv3X6ddgOTPunS5Aavi0ij2xNjKbA6iCY4=w1280">
+</div>
+</div>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ4A9wtRK5xh7ncoaLSQSzUTSMSoXQq-iRtyDXQ16bVcDQA3Nyw-xXmjLKk6hv70wDy4JCTKDuZDb4C/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vSZPcAPVOTfjiXOPMBBhavmfwAEKZksu7xRLeTs7rUPdxL6qZfXyMAp35ERbUgRGtY7pRihD-hCAzmr/pub" frameborder="0" width="960" height="569" allowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoYr7ASnja6G7gQYps7gEmMV8uPb2yEEp0tjSm3y73mKLOrwFpep0OmCn0hZqu6g/pubhtml" frameborder="0" width="960" height="569" allowfullscreen="true"></iframe>
+</div>
+</div>
+
+<div class="section">
+<div class="titulo">Atención y comunicación</div>
+<p><b>Gmail</b><br>
+En Mood Bag nos encanta estar en contacto contigo a través de nuestro Gmail: m0odb4gg@gmail.com Es nuestro espacio favorito para platicar sobre tus pedidos personalizados, aclarar tus dudas y enviarte actualizaciones de tus compras de forma organizada y segura:</p>
+
+<p><b>Google Chat</b><br>
+Si tienes una duda rápida sobre nuestras bolsas de mezclilla o quieres saber si todavía tenemos ese modelo de pana que te encantó, ¡escríbenos por Google Chat! Es nuestra forma favorita de platicar contigo en tiempo real y darte una respuesta inmediata para que no te quedes con las ganas.</p>
+
+<p><b>Google Meet</b><br>
+¡Nos encanta ponerle cara a tus ideas! A través de Google Meet, podemos agendar una videollamada cortita para mostrarte de cerca las texturas de nuestras telas, elegir juntos el color de tu próximo bolso personalizado y asegurarnos de que cada detalle sea exactamente como lo soñaste.</p>
+</div>
+
+<div class="section">
+<div class="titulo">Control de actividades</div>
+<p>
+Detrás de costuras: Nuestra organización
+En Mood Bag, creemos que la creatividad fluye mejor cuando hay orden. Como mentes jóvenes estamos aprendiendo que para entregarles la bolsa perfecta, no solo necesitamos hilo y aguja, sino también una estructura sólida.🧑‍💻
+
+Para lograrlo integraremos Google Tasks como el motor que mueve nuestra logística diaria. Al ser parte de Google Workspace, esta herramienta nos permite convertir cada idea en una acción concreta.🙂‍↕️
+
+Así es como cobra vida una "Mood Bag" con Google Tasks 
+
+Imagina que recibimos un mensaje tuyo pidiendo una bolsa personalizada. Así es como Google Tasks entra en acción:
+
+Captura Instantánea: Desde nuestro Gmail, convertimos tu correo en una tarea con un solo clic: "Surtir pedido especial: Logo de BTS con forro de manta". No hay papeles perdidos, todo está en la nube.😶‍🌫️
+
+Desglose de Pasos (Subtareas): Dentro de esa tarea, dividimos el proceso para no olvidar ningún detalle:
+
+🧵 Seleccionar los retazos de mezclilla o manta de alta calidad.
+
+🪡 Cortar el forro para el interior.
+
+🎨 Aplicar el diseño creativo solicitado.
+
+📦 Preparar el empaque ecológico.
+
+Sincronización con el Calendario: Le asignamos una fecha de entrega. Automáticamente, esa tarea aparece en nuestro Google Calendar, permitiéndonos ver visualmente si tenemos espacio para más pedidos o si debemos enfocarnos en la producción.🧐
+
+Colaboración en Tiempo Real: Mientras uno de nosotros actualiza el Inventario (marcando la tarea como completada), el encargado de Publicidad recibe una notificación para tomar la foto final y subirla a nuestras redes.📱
+
+El resultado: Menos caos administrativo y más tiempo para lo que realmente amamos: crear bolsas con personalidad.😎
+</p>
+</div>
+
+<div class="section">
+<div class="titulo">IA en moodbag</div>
+<p>
+Utilizamos Gemini como una herramienta de apoyo a lo largo del desarrollo del proyecto. Principalmente, nos ayudó a resolver dudas relacionadas con la correcta inserción de distintos elementos dentro de la página, lo que facilitó el proceso técnico y evitó errores en la estructura.
+
+Asimismo, empleamos esta herramienta para mejorar la redacción de los textos, logrando que fueran más claros, formales y presentables, adecuados para el propósito del trabajo. También nos permitió reformular ideas para evitar repeticiones y dar mayor coherencia al contenido.
+
+Por otro lado, utilizamos Gemini para organizar la información, clasificando cada apartado de manera lógica, entendible y visualmente atractiva. Esto contribuyó a que el contenido fuera más fácil de leer e interpretar, mejorando la presentación general del proyecto y haciendo que cada sección tuviera un orden claro y llamativo para el usuario.
+</p>
+</div>
+
+<div class="footer">© MoodBag</div>
+
+</body>
+</html>
